@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.cabecalho {
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 10%;
+}
+
+.cabecalho__menu__link {
+    font-family: 'Montserrast', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #8AE6CD;
+    text-decoration: none; /* retira sublinhado dos links*/
+}
